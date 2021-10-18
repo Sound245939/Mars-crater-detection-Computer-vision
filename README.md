@@ -15,11 +15,17 @@ labelled for further investigation by scientists.
 For this particular software design the, the sequence of the compliments is what has been put to use. Since the 
 overall idea is to be able to use the cv2.findCounturs function in OpenCv. The general working 
 of findCountours makes use of the following methods in the following sequence:
+
 #Blurring the image
+
 #Converting image to greyscale
+
 #Thresholding the image
+
 #Performing edge detection
+
 #Dilation of the image
+
 #Getting contours of image
 
 The use of data augmentation was put into this project. In order to begin with the project, the requirement of generating a large data set was a good 
